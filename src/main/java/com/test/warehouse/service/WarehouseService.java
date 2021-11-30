@@ -1,6 +1,6 @@
-package com.test.warehouses.service;
+package com.test.warehouse.service;
 
-import com.test.warehouses.model.Warehouse;
+import com.test.warehouse.model.Warehouse;
 
 import java.util.List;
 

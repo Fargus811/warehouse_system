@@ -1,4 +1,4 @@
-package com.test.warehouses.exception;
+package com.test.warehouse.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;

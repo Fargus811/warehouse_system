@@ -1,7 +1,7 @@
-package com.test.warehouses.controller;
+package com.test.warehouse.controller;
 
-import com.test.warehouses.model.Warehouse;
-import com.test.warehouses.service.WarehouseService;
+import com.test.warehouse.model.Warehouse;
+import com.test.warehouse.service.WarehouseService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

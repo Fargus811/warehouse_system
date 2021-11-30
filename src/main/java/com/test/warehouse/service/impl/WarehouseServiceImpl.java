@@ -1,11 +1,11 @@
-package com.test.warehouses.service.impl;
+package com.test.warehouse.service.impl;
 
-import com.test.warehouses.data.LocalDataRepository;
-import com.test.warehouses.exception.NotFoundException;
-import com.test.warehouses.model.Product;
-import com.test.warehouses.model.Warehouse;
-import com.test.warehouses.service.ProductService;
-import com.test.warehouses.service.WarehouseService;
+import com.test.warehouse.data.LocalDataRepository;
+import com.test.warehouse.exception.NotFoundException;
+import com.test.warehouse.model.Product;
+import com.test.warehouse.model.Warehouse;
+import com.test.warehouse.service.ProductService;
+import com.test.warehouse.service.WarehouseService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

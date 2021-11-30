@@ -1,4 +1,4 @@
-package com.test.warehouses.model;
+package com.test.warehouse.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;

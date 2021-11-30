@@ -1,16 +1,17 @@
-package com.test.warehouses.model;
+package com.test.warehouse.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.NotNull;
-import java.util.List;
 
 @Data
+@AllArgsConstructor
 @Builder
-public class Warehouse {
+public class Product {
 
     @JsonProperty
     private Long id;
@@ -19,11 +20,4 @@ public class Warehouse {
     @NotNull(message = "Field name must not be null")
     @NotEmpty(message = "Field name must not be empty")
     private String name;
-
-    @JsonProperty
-    @NotNull(message = "Field point must not be null")
-    private Point point;
-
-    @JsonProperty
-    private List<Product> products;
 }

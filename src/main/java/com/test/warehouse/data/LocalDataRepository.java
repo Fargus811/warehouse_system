@@ -1,9 +1,9 @@
-package com.test.warehouses.data;
+package com.test.warehouse.data;
 
-import com.test.warehouses.model.Order;
-import com.test.warehouses.model.Point;
-import com.test.warehouses.model.Product;
-import com.test.warehouses.model.Warehouse;
+import com.test.warehouse.model.Order;
+import com.test.warehouse.model.Point;
+import com.test.warehouse.model.Product;
+import com.test.warehouse.model.Warehouse;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import org.springframework.stereotype.Component;

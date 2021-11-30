@@ -1,7 +1,7 @@
-package com.test.warehouses.controller;
+package com.test.warehouse.controller;
 
-import com.test.warehouses.exception.NotFoundException;
-import com.test.warehouses.model.RestErrorMessage;
+import com.test.warehouse.exception.NotFoundException;
+import com.test.warehouse.model.RestErrorMessage;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
